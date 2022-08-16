@@ -1,0 +1,67 @@
+header {
+  background-color: #daa520;
+}
+
+#logo-home {
+  margin: 0px 10%;
+}
+main {
+  background: url("honey_bg.png");
+}
+nav {
+  position: absolute;
+  top: 110px;
+  left: 60%;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: beige;
+  text-underline-offset: 2px;
+  text-decoration: overline underline;
+}
+
+.negrito {
+  font-weight: bold;
+}
+.descricao h2 {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.descricao li {
+  display: inline-block;
+  text-align: left;
+  width: 25%;
+  vertical-align: top;
+  background: #daa520;
+  margin: 12%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px #000000;
+}
+footer {
+  text-align: center;
+  color: beige;
+  background-color: #daa520;
+  padding: 25px 0;
+  margin: 0px 0 0;
+}
+/*ferramenta para deixar o site responsivo para celulares*/
+@media screen and (max-width: 480px) {
+  body {
+    background-color: aqua;
+  }
+}
