@@ -1,0 +1,53 @@
+body {
+  overflow: hidden;
+}
+
+#mage {
+  position: absolute;
+  left: 50vw;
+  margin-left: -180px;
+  top: 50vh;
+  margin-top: -180px;
+}
+
+#pagina-atual {
+  background-color: cyan;
+  display: flex;
+  justify-content: center;
+  width: 2em;
+  border-radius: 5px;
+  color: black;
+}
+main {
+  width: fit-content;
+  color: white;
+  font-family: "Amatic SC", cursive;
+  margin-left: 45vw;
+  margin-top: -5px;
+}
+@keyframes teste {
+  0% {
+    left: -50vw;
+  }
+  25% {
+  }
+  50% {
+  }
+  100% {
+    left: 50vw;
+  }
+}
+
+#mage {
+  animation-name: teste;
+  animation-duration: 3s;
+}
+@media only screen and (max-width: 400px) {
+  main {
+    width: fit-content;
+    color: white;
+    font-family: "Amatic SC", cursive;
+    margin-left: 35vw;
+    margin-top: -15px;
+  }
+}

@@ -1,0 +1,161 @@
+p,
+h1,
+h2 {
+  color: white;
+  font-family: "Amatic SC", cursive;
+  font-weight: bolder;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  font-size: 25px;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+figcaption {
+  color: white;
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  margin-left: 10em;
+}
+
+body::-webkit-scrollbar {
+  width: 5px; /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: cyan; /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: cyan; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid purple; /* creates padding around scroll thumb */
+}
+
+#pagina-atual {
+  background-color: cyan;
+  display: flex;
+  justify-content: center;
+  width: 3em;
+
+  border-radius: 5px;
+  color: black;
+}
+.aboutMe {
+  display: flex;
+}
+.aboutMe-content {
+  width: 50vw;
+  margin-left: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+#aboutMe-img {
+  width: 18em;
+  border: 5px solid MediumSlateBlue;
+  border-radius: 5px;
+  padding: 0px;
+  margin-left: 5em;
+  margin-top: 2em;
+}
+.aboutMe-cv {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.cursos {
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  margin-right: 2em;
+}
+.cursos ul {
+  width: 25vw;
+}
+.cursos ul li {
+  font-size: 20px;
+  display: flex;
+  list-style: none;
+  margin-top: 2em;
+  background-color: MediumPurple; /* MediumSlateBlue bluevoilet */
+  height: 8vh;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+@media only screen and (max-width: 400px) {
+  .aboutMe {
+    flex-direction: column;
+  }
+  h1 {
+    background-color: purple;
+    width: 5em;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 2em;
+  }
+  .aboutMe p {
+    width: 90vw;
+    margin-left: 1.5em;
+    margin-right: -1.5em;
+    background-color: mediumpurple;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+  }
+  #aboutMe-img {
+    margin-left: 0em;
+  }
+  figcaption {
+    margin-left: 4.5em;
+  }
+  .aboutMe-cv {
+    margin-top: 0;
+  }
+  #expti {
+    width: 10em;
+    margin-left: 1em;
+  }
+  .aboutMe-cv p {
+    width: 90vw;
+    margin-left: 0.5em;
+    margin-right: -0.5em;
+
+    background-color: mediumpurple;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+  }
+  .aboutMe-cv h2 {
+    background-color: purple;
+    width: 10em;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 1.25em;
+  }
+  .cursos {
+    margin-top: -2em;
+    flex-wrap: wrap;
+    margin-right: 0em;
+    justify-content: space-evenly;
+  }
+  .cursos ul {
+    display: inline-block;
+    margin-right: 3em;
+    margin-bottom: -1em;
+    margin-left: -2.5em;
+  }
+  .cursos ul li {
+    display: inline-block;
+    width: 20vh;
+    height: 30vw;
+  }
+}

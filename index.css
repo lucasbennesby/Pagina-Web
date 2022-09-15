@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.9) 30%,
+
+    rgba(85, 36, 112, 1) 100%
+  );
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+p {
+  margin: 0px;
+}

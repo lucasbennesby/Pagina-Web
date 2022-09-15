@@ -1,0 +1,90 @@
+body {
+  overflow: hidden;
+}
+
+#pagina-atual {
+  background-color: cyan;
+  display: flex;
+  justify-content: center;
+  width: 3em;
+  border-radius: 5px;
+  color: black;
+}
+
+@media only screen and (max-width: 375px) {
+}
+ul li {
+  list-style: none;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.contatos {
+  color: white;
+  font-family: "Amatic SC", cursive;
+}
+.contatos h2 {
+  font-size: 50px;
+}
+.contatos ul {
+  display: flex;
+  background-color: rebeccapurple;
+  justify-content: center;
+  border-radius: 10px;
+}
+.contatos ul li {
+  font-size: 25px;
+  font-weight: bold;
+}
+.contatos a:hover {
+  color: cyan;
+}
+#email,
+#tel {
+  display: flex;
+  justify-content: center;
+}
+
+#email2:hover {
+  color: cyan;
+  font-size: 35px;
+}
+#tel2:hover {
+  color: cyan;
+  font-size: 35px;
+}
+.contatos ul:hover {
+  background-color: darkorange;
+}
+
+@media only screen and (max-width: 400px) {
+  .contatos h2 {
+    text-align: center;
+  }
+  .contatos ul li {
+    text-align: center;
+  }
+  .bottom-side {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+  }
+  .contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .contatos ul {
+    width: 18em;
+    display: flex;
+    text-align: center;
+
+    justify-content: center;
+    border-radius: 5px;
+  }
+  .contatos ul li {
+    text-align: center;
+  }
+}
